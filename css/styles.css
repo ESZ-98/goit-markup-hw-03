@@ -102,7 +102,7 @@ nav a:focus {
 .order-box {
   background-color: var(--dark-bg);
   color: var(--dark-bg-text);
-  padding: 200px 452px;
+  padding: 200px 0;
   display: flex;
   flex-direction: column;
 }
@@ -209,8 +209,6 @@ footer {
   background-color: var(--dark-bg);
   text-align: left;
   padding: 60px 0;
-  padding-left: 370px;
-  /* Nie wiem jak ustawić padding-left inaczej, przed dodatniem .container wszytko było okej...*/
 }
 
 .contact-bottom a {
@@ -240,7 +238,6 @@ address {
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
-  margin-bottom: 94px;
 }
 
 h1,
@@ -289,7 +286,6 @@ nav ul :not(:last-child) {
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
-  margin-left: 215px;
   margin-right: 215px;
 }
 
@@ -303,6 +299,7 @@ nav ul :not(:last-child) {
   display: flex;
   justify-content: center;
   gap: 30px;
+  margin-bottom: 94px;
 }
 
 header .contact-top {
@@ -314,9 +311,6 @@ header .contact-top {
 header {
   display: flex;
   justify-content: center;
-  margin-left: 370px;
-  /* Nie wiem jak ustawić padding-left inaczej, przed dodatniem .container wszytko było okej...*/
-  margin-right: 215px;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: #ececec;
@@ -356,6 +350,5 @@ header {
 .container {
   margin: 0 auto;
   width: 100%;
-  min-width: 1200px;
-  padding: 0 15px;
+  width: 1200px;
 }
